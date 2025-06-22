@@ -1,0 +1,21 @@
+﻿<Page x:Class="Bankd.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:Bankd"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+  <ScrollViewer IsTabStop="True">
+    <Grid>
+      <StackPanel
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center">
+        <Button AutomationProperties.AutomationId="MyButton"
+          Content="Let's Eh Gooo!"
+          HorizontalAlignment="Right" />
+        <TextBlock AutomationProperties.AutomationId="HelloTextBlock"
+          Text="Hello Uno Platform!"
+          HorizontalAlignment="Center" />
+      </StackPanel>
+    </Grid>
+  </ScrollViewer>
+      
+</Page>

@@ -3,18 +3,18 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:local="using:Bankd"
       Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+      
+      
   <ScrollViewer IsTabStop="True">
-    <Grid>
-      <StackPanel
-        HorizontalAlignment="Center"
-        VerticalAlignment="Center">
-        <Button AutomationProperties.AutomationId="MyButton"
-          Content="Let's Eh Gooo!"
-          HorizontalAlignment="Right" />
-        <TextBlock AutomationProperties.AutomationId="HelloTextBlock"
-          Text="Hello Uno Platform!"
-          HorizontalAlignment="Center" />
-      </StackPanel>
+
+    <Grid Name="myGrid" Width="1200" Height="635" >
+<Grid.Background>
+  <ImageBrush ImageSource = "/Assets/Images/BackgroundImage.jpg"></ImageBrush>
+</Grid.Background>
+   
+    <Button AutomationProperties.AutomationId="newaccount" HorizontalAlignment="Center"
+          Content="Open a New Account" Height="70" Width="165" Margin="0,5,165,0" />
+   
     </Grid>
   </ScrollViewer>
       

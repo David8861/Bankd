@@ -12,8 +12,8 @@
   <ImageBrush ImageSource = "/Assets/Images/BackgroundImage.jpg"></ImageBrush>
 </Grid.Background>
    
-    <Button AutomationProperties.AutomationId="newaccount" HorizontalAlignment="Center"
-          Content="Open a New Account" Height="70" Width="165" Margin="0,5,165,0" />
+    <Button AutomationProperties.AutomationId="newaccount"
+          Height="95" Width="1050" Margin="315,520,385,0" />
    
     </Grid>
   </ScrollViewer>
